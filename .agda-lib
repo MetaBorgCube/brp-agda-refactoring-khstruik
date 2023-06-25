@@ -1,0 +1,5 @@
+name: safe-by-construction-refactorings
+depend: 
+include:
+  ./src/
+  ./lib/agda-stdlib/src/
