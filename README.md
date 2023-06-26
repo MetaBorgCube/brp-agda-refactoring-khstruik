@@ -5,7 +5,7 @@
 course at Delft University of Technology.
 
 This repository contains the source code for my bachelor thesis on
-correct-by-construction of function code. Specifically, my focus was on creating,
+correct-by-construction of functional code. Specifically, my focus was on creating,
 and proving the correctness of, a refactoring to add a new argument to a function
 definition and updating its call sites to include the default value for this
 argument. An example of the desired effects of this refactoring can be seen
