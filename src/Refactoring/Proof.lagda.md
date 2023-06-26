@@ -1,3 +1,4 @@
+```agda
 module Refactoring.Proof where
 
 open import Agda.Builtin.Equality using (_≡_; refl)
@@ -11,6 +12,7 @@ open import Data.Empty using (⊥)
 open import Data.Unit using (⊤)
 
 open import Refactoring.Definition
+open import Refactoring.Util
 open import Language
 
 private
@@ -317,4 +319,5 @@ correct-afa efe ee (↓appl eₒ eₒ₁ eₒ₂) (↓appl eₙ eₙ₁ eₙ₂)
 correct-afa {e = var l} efe ee ↓var ↓var = var≡vᵣ ee l
 correct-afa {e = fvar l} efe ee ↓fvar ↓fvar = fvar≡vᵣ efe l
 correct-afa efe ee (↓newCtx eₒ) (↓newCtx eₙ) = equiv-env≡ efe-root ee-root eₒ eₙ
+```
 
